@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=  device-width, initial-scale=1">
+	<title>Log-in/Sign-up</title>
+	<link rel="stylesheet" type="text/css" href="./signup.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap-material-design.css">
+  <link rel="stylesheet" type="text/css" href="../css/ripples.min.css">
+	</head>
+<body>
+  <div class="container">
+    <div class="backbox jumbotron">
+      <div class="loginMsg">
+        <div class="textcontent">
+          <p class="title">Don't have an account?</p>
+          <p>Sign up to save all your graph.</p>
+          <a id="switch1" class="btn btn-raised buttonn btn-success">Sign Up</a>
+        </div>
+      </div>
+      <div class="signupMsg visibility">
+        <div class="textcontent">
+          <p class="title">Have an account?</p>
+          <p>Log in to see all your collection.</p>
+          <a id="switch2" class="btn btn-raised buttonn btn-success">LOG IN</a>
+        </div>
+      </div>
+    </div>
+    <div class="frontbox">
+      <div class="login">
+        <h2>LOG IN</h2>
+        <div class="inputbox">
+          <input class="form-control" type="text" name="email" placeholder="  E-MAIL" id="login_email"> 
+          <input class="form-control" type="password" name="password" placeholder="  PASSWORD" id="login_password">
+        </div>
+        <p style="color: blue; font-size:15px;">FORGET PASSWORD?</p>
+        <a id="login" class="btn btn-raised buttonn btn-primary">LOG IN</a>
+      </div>
+      <div class="signup hide">
+        <h2>SIGN UP</h2>
+        <div class="inputbox">
+          <input type="text" name="email" placeholder="  E-MAIL" class="form-control" id="signup_email">
+          <input type="password" name="password" placeholder="  PASSWORD" class="form-control" id="signup_password">
+          <input type="password" name="password" placeholder="  Confirm PASSWORD" class="form-control" id="signup_confirm_password">
+        </div>
+        <a id="signup" class="btn btn-raised buttonn btn-primary">SIGN UP</a>
+      </div>
+    </div>
+  </div>
+	<script src="../js/jquery.min.js"></script>
+  <script src="../js/material.min.js"></script>
+  <script src="../js/ripples.min.js"></script>
+  <script src="../js/ripplesinit.js"></script>
+  <SCRIPT src="./validate.js"></SCRIPT>
+  <script src="./signup.js"></script>
+
+</body>
+
+</html></html>
