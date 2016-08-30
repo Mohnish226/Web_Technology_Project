@@ -6,56 +6,89 @@
   <meta name="viewport" content="width=  device-width, initial-scale=1">
 	<title>Log-in/Sign-up</title>
 	<link rel="stylesheet" type="text/css" href="./signup.css">
-  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../css/bootstrap-material-design.css">
   <link rel="stylesheet" type="text/css" href="../css/ripples.min.css">
-	</head>
+	
+
+  </head>
 <body>
+  
+  <!-- NavBar -->
+  <div class="navbar navbar-default navbar-fixed-top navtrans">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="javascript:void(0)">WD</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-responsive-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="javascript:void(0)">Home&nbsp;&nbsp;</a></li>
+            <li><a href="javascript:void(0)">Buy&nbsp;&nbsp;</a></li>
+            <li><a href="javascript:void(0)">Sell&nbsp;&nbsp;</a></li>
+         </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End NavBar -->
+  <!-- container -->
   <div class="container">
-    <div class="backbox jumbotron">
+    <div class="backbox">
       <div class="loginMsg">
         <div class="textcontent">
           <p class="title">Don't have an account?</p>
-          <p>Sign up to save all your graph.</p>
+          <p>Sign up to sell your car.</p>
           <a id="switch1" class="btn btn-raised buttonn btn-success">Sign Up</a>
         </div>
       </div>
       <div class="signupMsg visibility">
         <div class="textcontent">
           <p class="title">Have an account?</p>
-          <p>Log in to see all your collection.</p>
+          <p>Log in to see all the information.</p>
           <a id="switch2" class="btn btn-raised buttonn btn-success">LOG IN</a>
         </div>
       </div>
     </div>
+    <!-- backbox -->
+    <!-- frontbox -->
+    <form action="login.php" method="post">
     <div class="frontbox">
       <div class="login">
         <h2>LOG IN</h2>
         <div class="inputbox">
-          <input class="form-control" type="text" name="email" placeholder="  E-MAIL" id="login_email"> 
+          <input class="form-control" type="email" name="email" placeholder="  E-MAIL" id="login_email"> 
           <input class="form-control" type="password" name="password" placeholder="  PASSWORD" id="login_password">
         </div>
-        <p style="color: blue; font-size:15px;">FORGOT PASSWORD?</p>
+        <p style="color: blue; font-size:15px;">FORGET PASSWORD?</p>
         <a id="login" class="btn btn-raised buttonn btn-primary">LOG IN</a>
       </div>
+    </form>
+    <form action="http://localhost/signup.php" method="post">
       <div class="signup hide">
         <h2>SIGN UP</h2>
         <div class="inputbox">
-          <input type="text" name="email" placeholder="  E-MAIL" class="form-control" id="signup_email">
-          <input type="password" name="password" placeholder="  PASSWORD" class="form-control" id="signup_password">
-          <input type="password" name="password" placeholder="  Confirm PASSWORD" class="form-control" id="signup_confirm_password">
+          <input type="email" name="semail" placeholder="  E-MAIL" class="form-control" id="signup_email">
+          <input type="password" name="spassword" placeholder="  PASSWORD" class="form-control" id="signup_password">
+          <input type="password" name="scpassword" placeholder="  CONFIRM PASSWORD" class="form-control" id="signup_confirm_password">
+          <p id="validate-status"></p>
         </div>
-        <a id="signup" class="btn btn-raised buttonn btn-primary">SIGN UP</a>
+        <input type="submit" id="signup" class="btn btn-raised buttonn btn-primary" value="SignUp">
       </div>
+    </form>
     </div>
+    <!-- frontbox -->
   </div>
+  <!-- container -->
 	<script src="../js/jquery.min.js"></script>
   <script src="../js/material.min.js"></script>
   <script src="../js/ripples.min.js"></script>
   <script src="../js/ripplesinit.js"></script>
   <SCRIPT src="./validate.js"></SCRIPT>
   <script src="./signup.js"></script>
-
 </body>
 
 </html></html>

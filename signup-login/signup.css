@@ -1,7 +1,6 @@
 body{
-  background-image: url('../images/signlog.jpg');
+  background: url('http://hqpictures.net/wp-content/uploads/2015/08/Luxury-Car-Wallpapers-HD.jpg');
   font-family: 'Roboto', sans-serif;
-  background-size: cover;
 }
 
 .container{
@@ -23,12 +22,13 @@ body{
   top:30%;
   display: inline-flex;
   border-radius: 25px;
+  background: rgba(0,0,0,0.5); 
 }
 
 .frontbox{
   background-color: white;
   border-radius: 20px;
-  height: 100%;
+  height: 120%;
   width: 50%;
   z-index: 10;
   position: absolute;
@@ -132,3 +132,10 @@ body{
 .hide{
   display: none;
 }
+
+.navtrans{
+  opacity: .6;
+}
+.navtrans:hover{
+  opacity: 1;
+};
