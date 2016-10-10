@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Security Question</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap.material-design/0.5.10/css/bootstrap-material-design.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap.material-design/0.5.10/css/ripples.min.css">
+    <!-- Custom CSS -->
+    <link href="css/style400.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- NavBar -->
+  <div class="navbar navbar-default navbar-fixed-top navtrans">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://localhost/te-wt/home.html">WD</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-responsive-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://localhost/te-wt/rl1.php">Buy&nbsp;&nbsp;</a></li>
+            <li><a href="https://localhost/te-wt/register.php">Sell&nbsp;&nbsp;</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Account
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                <li><a href="https://localhost/te-wt/signup.html">Login</a></li>
+                <li><a href="https://localhost/te-wt/signup.html">Signup</a></li>
+                <li><a href="https://localhost/te-wt/php/logout.php">LogOut</a></li> 
+                </ul>
+            </li>
+         </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End NavBar -->
+
+    <!-- Header -->
+    <header id="top" class="header">
+    <div class = "container">
+        <div class="text-vertical-center well">
+            <h1>Complete signup</h1>
+            <form class="form-horizontal" action="http://localhost/te-wt/php/squest.php" method="post"id="ansform" enctype="multipart/form-data">
+            <!-- <h3>Oh snap! We couldn't find what you were looking for. </h3> -->
+            <label for="qselect"><i class="material-icons"></i>Question :</label>
+            <select id="qselect" class="form-control" name="selectcar" onchange="return question_change()">
+                <option value=" ">--Select Security Question--</option>
+                <option value="1">In what city were you born?</option>
+                <option value="2">What high school did you attend?</option>
+                <option value="3">What is your favorite color?</option>
+                <option value="4">When is your anniversary?</option>
+                <option value="5">What is your father's middle name?</option>   
+            </select>
+            <input type="hidden" name="questionh" id="questionc">
+            <div class="form-group">
+                <label> Enter Answer</label>
+                <input type="text" name="answer" placeholder="EnterAnswer Here">
+            </div>
+            <input type="submit" id="submit" class="btn btn-primary btn-lg" value="Submit" name="submit">                           
+        </form>
+        </div>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- Material Bootstrap Links -->
+    <script src="https://cdn.jsdelivr.net/bootstrap.material-design/0.5.10/js/material.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bootstrap.material-design/0.5.10/js/ripples.min.js"></script>
+    <script type="text/javascript" src="./js/ripplesinit.js"></script>  
+    <script src="./js/gettext.js"></script> 
+    
+</body>
+
+</html>

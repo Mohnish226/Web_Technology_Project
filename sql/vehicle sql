@@ -1,0 +1,22 @@
+CREATE TABLE `vehicles` (
+  `vid` int(10) NOT NULL AUTO_INCREMENT,
+  `sold` int(1) NOT NULL DEFAULT '0',
+  `Vehicle_Type` varchar(20) NOT NULL,
+  `maker` varchar(50) NOT NULL,
+  `model` varchar(50) NOT NULL,
+  `fuel` varchar(50) DEFAULT NULL,
+  `year` int(11) NOT NULL,
+  `kms` int(11) NOT NULL,
+  `state` varchar(70) NOT NULL,
+  `city` varchar(70) NOT NULL,
+  `price` int(11) NOT NULL,
+  `details` varchar(400) NOT NULL,
+  `phone_number` varchar(11) NOT NULL,
+  `UserId` varchar(20) NOT NULL,
+  `Image_Front` varchar(300) NOT NULL,
+  `Image_Right` varchar(300) NOT NULL,
+  `Image_Left` varchar(300) NOT NULL,
+  `Image_Rear` varchar(300) NOT NULL,
+  `Image_Inside` varchar(300) DEFAULT NULL,
+    PRIMARY KEY(vid)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

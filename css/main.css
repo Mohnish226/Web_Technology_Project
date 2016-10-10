@@ -1,0 +1,183 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway;
+    font-weight: 300;
+    color: #333;
+}
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.centered {
+    text-align: center;
+}
+.mt {
+    padding-top: 25px;
+}
+a {
+    color: #16a085;
+    word-wrap: break-word;
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+}
+a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+a:before, a:after {
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+}
+
+.btn {
+    border-radius: 0;
+}
+.btn-green {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    font-weight: 300;
+}
+.btn-green:hover, .btn-green:focus, .btn-green:active, .btn-green.active, .open .dropdown-toggle.btn-green {
+    color: #fff;
+    background-color: #16a085;
+    border-color: #16a085;
+    font-weight: 300;
+}
+
+#headerwrap {
+    background: url(../img/header-home.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 750px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#headerwrap h1 {
+    margin-top: 130px;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    opacity: 0.9;
+}
+#headerwrap h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+#headerwrap i {
+    font-size: 35px;
+    color: #fff;
+}
+#headerwrap .spacer {
+    margin-top: 220px;
+}
+
+
+#portfolio {
+    width: 100%}
+#services {
+    background: #1abc9c;
+    margin-top: 25px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#services h3 {
+    color: #fff;
+}
+#services p {
+    color: #fff;
+}
+#services i {
+    color: #fff;
+    font-size: 35px;
+    margin-top: 22px;
+}
+
+.grid {
+    max-width: 69em;
+    list-style: none;
+    margin: 30px auto;
+    padding: 0;
+}
+.grid li {
+    display: block;
+    float: left;
+    padding: 7px;
+    width: 33%;
+    opacity: 0;
+}
+.grid li.shown, .no-js .grid li, .no-cssanimations .grid li {
+    opacity: 1;
+}
+.grid li a, .grid li img {
+    outline: 0;
+    border: 0;
+    display: block;
+    max-width: 100%}
+.grid img {
+    opacity: .7;
+}
+.grid img:hover {
+    opacity: 1;
+}
+.grid.effect-2 li.animate {
+    -webkit-transform: translateY(200px);
+    -moz-transform: translateY(200px);
+    transform: translateY(200px);
+    -webkit-animation: moveUp .65s ease forwards;
+    -moz-animation: moveUp .65s ease forwards;
+    animation: moveUp .65s ease forwards;
+}
+@-webkit-keyframes moveUp {
+    to {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+}
+}@-moz-keyframes moveUp {
+    to {
+    -moz-transform: translateY(0);
+    opacity: 1;
+}
+}@keyframes moveUp {
+    to {
+    transform: translateY(0);
+    opacity: 1;
+}
+}
+
+
+.navtrans{
+  opacity: .6;
+}
+.navtrans:hover{
+  opacity: 1;
+};

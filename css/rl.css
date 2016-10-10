@@ -1,0 +1,490 @@
+  /* New Divs for transitions */
+  .invi{
+    opacity: 0;
+  }
+  .form-control{
+    color: black;
+  }
+  .cropper{
+    width: 300px;
+    height: 200px;
+  }
+  table{
+    text-align: center;
+    vertical-align: middle;
+    border: solid 0px;
+  }
+  th,td{
+    font-family: Helventica;
+    padding: 15px;
+  }
+  .tdh{
+    font-size: 2em;
+    font-family: Verdana;
+    border: solid 0 px;
+  }
+
+.intro-well{
+  margin-top: 21% !important; /* after adding this class next to videowarapper class for youtube video this will do the centering the divs*/
+  height: 60%;
+  padding: 15% !important;
+  display: none;
+}
+
+/*Resource Feedback Sliders Input[range]*/
+.range {
+  margin: 0.5%;
+  padding: 0.5%;
+}
+
+.resourcefeedsliderinput{
+  margin-top: 1%;
+  padding: 0.5%;
+  background-color: #fff;
+  font-size: 14px;
+  width: 31%;
+  text-align: center;
+  border-radius: 4px;
+  color: #808080;
+}
+
+.in_range {
+  -webkit-appearance: none;
+  width: 32%;
+  margin: 8.75px 0;
+}
+
+.in_range:focus {
+  outline: none;
+}
+
+.in_range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 7.5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  background: #009688;
+  border-radius: 5px;
+}
+
+.in_range::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid rgba(0, 0, 0, 0);
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -9.75px;
+}
+
+.in_range:focus::-webkit-slider-runnable-track {
+  background: #009688;
+}
+
+.in_range::-moz-range-track {
+  width: 100%;
+  height: 7.5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  background: #009688;
+  border-radius: 5px;
+  border: 1px solid rgba(1, 1, 1, 0);
+}
+
+.in_range::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid rgba(0, 0, 0, 0);
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.in_range::-moz-focus-outer {
+    border: 0;
+}
+
+.in_range::-ms-track {
+  width: 100%;
+  height: 7.5px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.in_range::-ms-fill-lower {
+  background: #009688;
+  border: 1px solid rgba(1, 1, 1, 0);
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+
+.in_range::-ms-fill-upper {
+  background: #009688;
+  border: 1px solid rgba(1, 1, 1, 0);
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+
+.in_range::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid rgba(0, 0, 0, 0);
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  background: #ffffff;
+  cursor: pointer;
+  height: 7.5px;
+}
+
+body{
+  overflow-y: hidden;/*full page scroll hidden*/
+  height: 100%;
+  width: 100%;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+#wikiexp{
+  height: 20%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
+.container{
+	margin-top: 3.9%;
+	width: 100%;
+}
+
+.div-height{
+	height: 92vh;
+}
+
+#left{
+	margin-top: 1.5%;
+	background-color: lightgrey;
+	overflow-y: scroll;
+}
+
+#middle{
+	margin-top: 1%;
+	overflow-y: scroll;
+	background-color: #EEE;
+}
+
+#right{
+	padding-top: 20px;
+  padding-bottom: 0px !important;
+	margin-top: 1.5%;
+	overflow-y: scroll;
+	background-color: lightgrey;
+}
+
+.left-btn {
+  float: left;
+  padding: 0%;
+  margin-top: 0%;
+  margin-left: 8px;
+}
+
+.navbar-brand {
+  font-size: 28px;
+}
+
+.even_spacing{
+	margin:1%;
+}
+
+/*youtube*/
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 50px 5px 10px 5px;
+	text-align: center;
+}
+
+/* Changes in accordion */
+
+.glyphicon {
+  float: right;
+  font-size: 15px;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
+}
+
+.easy {
+	background-color: #4CAF50;
+	color: #000;
+}
+
+.intermediate {
+	background-color: #FFEB3B;
+	color: #000;
+}
+
+.difficult {
+	background-color: #f44336;
+	color: #000;
+}
+
+
+/*no decoration for links*/
+a:link, a:focus, a:hover, a:active {
+  color: #888; /* Changes made */
+  outline: 0;
+  text-decoration: none;
+}
+
+/*for accordian*/
+.panel {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #fff;
+  background: none;
+  box-shadow: none;
+}
+
+.panel:last-child {
+  border-bottom: none;
+}
+
+.panel-group > .panel:first-child .panel-heading {
+  border-radius: 0px;
+}
+
+.panel-group .panel {
+  border-radius: 0;
+}
+
+.panel-group .panel + .panel {
+  margin-top: 0;
+}
+
+.panel-heading {
+  background-color: #009688;
+  border: none;
+  color: #fff;
+  text-align: center;
+  padding: 0%;
+}
+
+.panel-title a {
+  background-color: #009688;
+  display: block;
+  color: #fff;
+  padding: 17px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.panel-title:hover a {
+  color: #009688;
+  background-color: #fff;
+}
+
+.panel-body {
+  /*text-align: center;*/
+  cursor: pointer; /* Making the cursor pointer */
+}
+
+.panel-body a {
+  text-decoration: none;
+  color: #000;
+}
+
+.panel:last-child .panel-body {
+  border-radius: 0 0 4px 4px;
+}
+
+.panel:last-child .panel-heading {
+  border-radius: 0 0 4px 4px;
+  -webkit-transition: border-radius 0.3s linear 0.2s;
+  transition: border-radius 0.3s linear 0.2s;
+}
+
+.panel:last-child .panel-heading.active {
+  border-radius: 0;
+  -webkit-transition: border-radius linear 0s;
+  transition: border-radius linear 0s;
+}
+
+.wrap {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+
+
+/*to avoid panel overriding*/
+.rightpanelinfo>.rightpanelheading {
+    color: white;
+    background-color: #009688;
+    border-color: #bce8f1;
+}
+
+.rightpanelheading{
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-color: #bce8f1;
+}
+
+.rightpanelbody{
+    padding: 15px;
+    border-color: #bce8f1;
+    background-color: white;
+    text-align: center;
+}
+
+.rightpanelbody:hover{
+	background-color: white;
+}
+
+/*right section spacing*/
+.desc{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.related-dom{
+  margin-top: 30px;
+ margin-bottom: 30px;
+}
+.related-tech{
+  margin-top: 30px;
+margin-bottom: 30px;
+}
+
+/*CSS for content below Youtube video*/
+#toggle{
+  display: none;
+  margin: 1% 1% 0% 1% ;
+  padding: 1%;
+  clear: both;
+  background-color: #eee;
+}
+
+.loadingimg {
+  height: 15%;
+  width: 15%;
+}
+
+.ripple{
+  overflow:hidden;
+}
+
+.ripple-effect{
+  position: absolute;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: white;
+  animation: ripple-animation 2s;
+}
+
+@keyframes ripple-animation {
+    from {
+      transform: scale(1);
+      opacity: 0.4;
+    }
+    to {
+      transform: scale(100);
+      opacity: 0;
+    }
+}
+
+button{
+  position: relative;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  background: #89669b;
+  color: white;
+  padding: 18px 60px;
+  border-radius: 2px;
+  font-size: 22px;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+
+/* for responsive*/
+@media only screen and (max-device-width: 1000px) {
+#left {
+display: none;
+margin-top: 7%;
+}
+
+@media only screen and (max-device-width: 1000px) {
+#middle {
+height: 380px;
+}
+
+@media only screen and (max-device-width: 1000px) {
+body {
+overflow-y: auto;
+}
+}
+
+@media only screen and (max-device-width: 1000px) {
+.navbar-brand {
+      margin-top: 8px;
+    }
+}
+
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: initial !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .right-btn {
+    display: none !important;
+}
+
+.btn{
+  background-color: #009688 !important;
+  color: white !important;
+  -webkit-box-shadow: 7px 5px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 5px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 7px 5px 15px 0px rgba(0,0,0,0.75);
+}
+
+.btn:hover{
+   background-color:#009688 !important;
+   opacity: .7 !important;
+}
+
+.feedbk{
+  float: right;
+}
+
+.rating{
+  float: left;
+}
