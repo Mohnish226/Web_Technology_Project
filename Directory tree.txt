@@ -1,0 +1,91 @@
+te-wt
+|-- adminpage.php
+|-- adminreg.php
+|-- afterlogin.php
+|-- carposted.html
+|-- css
+|   |-- animate.css
+|   |-- bootstrap-material-design.css
+|   |-- bootstrap.css
+|   |-- bootstrap.min.css
+|   |-- fileinput.css
+|   |-- fileinput.min.css
+|   |-- font-awesome.min.css
+|   |-- font-awesome.min.reg.css
+|   |-- main.css
+|   |-- resource_layout.css
+|   |-- ripples.min.css
+|   |-- rl.css
+|   |-- rl2.css
+|   |-- shop-homepage.css
+|   |-- signup.css
+|   `-- style400.css
+|-- del.php
+|-- error.html
+|-- error1.html
+|-- fonts
+|   |-- glyphicons-halflings-regular.eot
+|   |-- glyphicons-halflings-regular.svg
+|   |-- glyphicons-halflings-regular.ttf
+|   |-- glyphicons-halflings-regular.woff
+|   `-- glyphicons-halflings-regular.woff2
+|-- home
+|   |-- css
+|   |   `-- font-awesome.min.css
+|   `-- fonts
+|       |-- fontawesome-webfont.eot
+|       |-- fontawesome-webfont.svg
+|       |-- fontawesome-webfont.ttf
+|       |-- fontawesome-webfont.woff
+|       |-- FontAwesome.otf
+|       |-- glyphicons-halflings-regular.eot
+|       |-- glyphicons-halflings-regular.svg
+|       |-- glyphicons-halflings-regular.ttf
+|       `-- glyphicons-halflings-regular.woff
+|-- home.html
+|-- images
+|   |-- header-home.jpg
+|   `-- signlog.jpg
+|-- js
+|   |-- AnimOnScroll.js
+|   |-- bootstrap.min.js
+|   |-- classie.js
+|   |-- fileinput.js
+|   |-- fileinput.min.js
+|   |-- gettext.js
+|   |-- imagesloaded.js
+|   |-- jquery.min.js
+|   |-- main.js
+|   |-- masonry.pkgd.min.js
+|   |-- material.min.js
+|   |-- modernizr.custom.js
+|   |-- resource_layout.js
+|   |-- ripples.min.js
+|   |-- ripplesinit.js
+|   |-- signup.js
+|   |-- validate.js
+|   |-- validatelog.js
+|   `-- yearinit.js
+|-- php
+|   |-- bike-registration.php
+|   |-- car-registration.php
+|   |-- connectivity-sign-up.php
+|   |-- connectivity.php
+|   |-- logout.php
+|   |-- readme.txt
+|   `-- squest.php
+|-- register.php
+|-- rl.php
+|-- rl1.php
+|-- rl2.php
+|-- signup.html
+|-- signup2.html
+|-- sql
+|   |-- database.sql
+|   |-- readme.txt
+|   `-- Tables
+|       |-- admin.sql
+|       |-- database.sql
+|       |-- vehicles.sql
+|       `-- wusers.sql
+`-- uploads

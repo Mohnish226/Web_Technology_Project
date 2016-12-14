@@ -1,0 +1,1 @@
+Import database.sql to phpmyadmin
