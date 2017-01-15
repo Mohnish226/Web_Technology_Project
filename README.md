@@ -25,7 +25,7 @@ Screenshots
 ###
 
 - Landing
-![]({{site.baseurl}}/blob:http://imgur.com/d2ff75b3-d128-e746-94f5-b083ac896cb2)
+![](http://imgur.com/d2ff75b3-d128-e746-94f5-b083ac896cb2)
 
 - Login
 ![]({{site.baseurl}}/http://i.imgur.com/bg3Il5g.png)
