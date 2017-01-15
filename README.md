@@ -12,8 +12,8 @@ Keep these files in
 
 Third Year Computer Engineering project using web technologies 
 Technologies used:
--HTML
--CSS
--JavaScript
--PHP
--MySQL
+- HTML
+- CSS
+- JavaScript
+- PHP
+- MySQL
