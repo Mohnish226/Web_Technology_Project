@@ -17,10 +17,13 @@ Technologies used:
 - JavaScript
 - PHP
 - MySQL
+
 ----------
+
 ###
 Screenshots
 ###
+
 - Landing
 ![]({{site.baseurl}}/blob:http://imgur.com/d2ff75b3-d128-e746-94f5-b083ac896cb2)
 
