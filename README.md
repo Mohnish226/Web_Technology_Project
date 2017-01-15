@@ -1,6 +1,4 @@
-##
-
-**Wheels Deals**##
+**Wheels Deals**
 ----------
 
 
@@ -20,31 +18,31 @@ Technologies used:
 
 ----------
 
-###
+
 Screenshots
-###
 
- Landing
-![]({{site.baseurl}}/blob:http://imgur.com/d2ff75b3-d128-e746-94f5-b083ac896cb2)
+ - Landing
+ ![Landing](http://i.imgur.com/wWq71G4.png)
 
- Login
-![]({{site.baseurl}}/http://i.imgur.com/bg3Il5g.png)
+- Login
+![Login](http://i.imgur.com/bg3Il5g.png)
 
- Signup
-![]({{site.baseurl}}/http://i.imgur.com/A8epzUf.png)
+- Signup
+![Signup](http://i.imgur.com/A8epzUf.png)
 
- Registration
-![]({{site.baseurl}}/http://i.imgur.com/z7HkLXf.png)
+- Registration
+![Car Reg](http://i.imgur.com/z7HkLXf.png)
 
- Search
-![]({{site.baseurl}}/http://i.imgur.com/tmwBHPq.png)
+- Search
+![Search](http://i.imgur.com/tmwBHPq.png)
 
- View
-![]({{site.baseurl}}/http://i.imgur.com/9XnV1Xr.png)
+- View
+![Normal View](http://i.imgur.com/9XnV1Xr.png)
 
- Admin Panel
-![]({{site.baseurl}}/http://i.imgur.com/JeagkSV.png)
+- Admin Panel
+![Admin](http://i.imgur.com/JeagkSV.png)
 
- Admin View
-![]({{site.baseurl}}/http://i.imgur.com/y2cqpeO.png)
+- Admin View
+![Admin View](http://i.imgur.com/y2cqpeO.png)
+
 
