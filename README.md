@@ -1,4 +1,6 @@
-**Wheels Deals**
+##
+
+**Wheels Deals**##
 ----------
 
 
@@ -18,31 +20,31 @@ Technologies used:
 
 ----------
 
-
+###
 Screenshots
+###
 
- - Landing
-![]({{site.baseurl}}//1.png)
+ Landing
+![]({{site.baseurl}}/blob:http://imgur.com/d2ff75b3-d128-e746-94f5-b083ac896cb2)
 
-- Login
+ Login
 ![]({{site.baseurl}}/http://i.imgur.com/bg3Il5g.png)
 
-- Signup
+ Signup
 ![]({{site.baseurl}}/http://i.imgur.com/A8epzUf.png)
 
-- Registration
+ Registration
 ![]({{site.baseurl}}/http://i.imgur.com/z7HkLXf.png)
 
-- Search
+ Search
 ![]({{site.baseurl}}/http://i.imgur.com/tmwBHPq.png)
 
-- View
+ View
 ![]({{site.baseurl}}/http://i.imgur.com/9XnV1Xr.png)
 
-- Admin Panel
+ Admin Panel
 ![]({{site.baseurl}}/http://i.imgur.com/JeagkSV.png)
 
-- Admin View
+ Admin View
 ![]({{site.baseurl}}/http://i.imgur.com/y2cqpeO.png)
-
 
