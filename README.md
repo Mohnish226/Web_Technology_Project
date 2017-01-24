@@ -33,6 +33,9 @@ Screenshots
 - Registration
 ![Car Reg](http://i.imgur.com/z7HkLXf.png)
 
+- Account 
+![Account Details](http://i.imgur.com/9ChgVsL.png)
+
 - Search
 ![Search](http://i.imgur.com/tmwBHPq.png)
 
