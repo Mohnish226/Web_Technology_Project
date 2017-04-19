@@ -22,30 +22,30 @@ Technologies used:
 Screenshots
 
  - Landing
- ![Landing](http://i.imgur.com/wWq71G4.png)
+ ![Landing](https://raw.githubusercontent.com/Mohnish226/Web_Technology_Project/master/Screens/1.png)
 
 - Login
-![Login](http://i.imgur.com/bg3Il5g.png)
+![Login](https://raw.githubusercontent.com/Mohnish226/Web_Technology_Project/master/Screens/2.png)
 
 - Signup
-![Signup](http://i.imgur.com/A8epzUf.png)
+![Signup](https://raw.githubusercontent.com/Mohnish226/Web_Technology_Project/master/Screens/3.png)
 
 - Registration
-![Car Reg](http://i.imgur.com/z7HkLXf.png)
+![Car Reg](https://raw.githubusercontent.com/Mohnish226/Web_Technology_Project/master/Screens/4.png)
 
 - Account 
-![Account Details](http://i.imgur.com/9ChgVsL.png)
+![Account Details](https://raw.githubusercontent.com/Mohnish226/Web_Technology_Project/master/Screens/5.png)
 
 - Search
-![Search](http://i.imgur.com/tmwBHPq.png)
+![Search](https://raw.githubusercontent.com/Mohnish226/Web_Technology_Project/master/Screens/6.png)
 
 - View
-![Normal View](http://i.imgur.com/9XnV1Xr.png)
+![Normal View](https://raw.githubusercontent.com/Mohnish226/Web_Technology_Project/master/Screens/7.png)
 
 - Admin Panel
-![Admin](http://i.imgur.com/JeagkSV.png)
+![Admin](https://raw.githubusercontent.com/Mohnish226/Web_Technology_Project/master/Screens/8.png)
 
 - Admin View
-![Admin View](http://i.imgur.com/y2cqpeO.png)
+![Admin View](https://raw.githubusercontent.com/Mohnish226/Web_Technology_Project/master/Screens/9.png)
 
 
